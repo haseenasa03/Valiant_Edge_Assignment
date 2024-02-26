@@ -1,0 +1,80 @@
+
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial;
+}
+
+.nav_bar
+{
+    width: 100%;
+        height: 75px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+       opacity: 86%;
+}
+#nav_bar_1,#nav_bar_3,#nav_bar_5
+{
+    background-color: blue;
+
+}
+#nav_bar_2,#nav_bar_4
+{
+    background-color:white;
+}
+.logo{
+    color:white;
+}
+
+.link_list ul{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: "row";
+    gap:20px;
+   list-style-type: none;
+    color:whitesmoke;
+}
+#nav_bar_2 .logo{
+    color:black;
+}
+#nav_bar_2,#nav_bar_4, .link_list ul{
+   color:black;
+}
+.buttons
+{
+    gap:10px;
+}
+
+#nav_bar_1 .buttons button{
+    background-color: aqua;
+}
+#nav_bar_2 .buttons button{
+    color: blue;
+
+}
+#nav_bar_4 .buttons button{
+    color:blue;
+}
+.buttons > button{
+    border-radius: 0px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: transparent;
+    color:white;
+}
+.buttons #button2{
+    background-color: aqua;
+}
+#nav_bar_3 .buttons .button1
+{
+    border:1px solid white;
+}
+.buttons #button3
+{
+    background-color: aqua;
+}
+

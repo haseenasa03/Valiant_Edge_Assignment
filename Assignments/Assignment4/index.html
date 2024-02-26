@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+     <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+   .grid-container{
+    display:grid;
+    width:100%;
+    height:100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    gap:10px;
+    background-color: whitesmoke;
+   }
+   .headcol1{
+    grid-column: span 2;
+    font-family: 'Roboto',sans-serif;
+    font-weight:300;
+    font-size:34px;
+   }
+      .headcol2{
+    grid-column: span 2;
+    font-family: 'Roboto',sans-serif;
+    font-weight:400;
+    font-size:30px;
+   }
+      .headcol3{
+    grid-column: span 2;
+    font-family: 'Roboto',sans-serif;
+    font-weight:300;
+    font-size:36px;
+   }
+      .headcol4{
+    grid-column: span 2;
+    font-family: 'Roboto',sans-serif;
+    font-weight:400;
+    font-size:24px;
+   }
+    .button1{
+display:flex;
+ flex-direction: column;
+  height:40px; 
+ border: none;
+ padding: 8px 8px;
+ margin:20px 0; 
+ border-radius:2px solid black;
+ text-decoration: none;
+ margin:15px;
+ /* background-color: blue; */
+color: white;
+    }
+    .button2{
+display:flex;
+ flex-direction: column;
+  height:40px; 
+ border: none;
+ padding: 8px 8px;
+ margin:20px 0; 
+ border-radius: 28px;
+ text-decoration: none;
+ margin:15px;
+ /* background-color: white; */
+
+    }
+     .button3{
+display:flex;
+ flex-direction: column;
+  height:40px; 
+ border: none;
+ padding: 8px 8px;
+ margin:20px 0; 
+ border-radius:2px solid black;
+ text-decoration: none;
+ margin:15px;
+ /* background-color: blue; */
+color: white;
+    }
+     </style>
+</head>
+<body>
+   <div class="grid-container">
+    <div class="headcol1">
+      <h1>h1. Bootstrap heading</h1>
+</div>
+       <div class="headcol2">
+      <h2>h2. Bootstrap heading</h2>
+</div>
+       <div class="headcol3">
+      <h3>h3. Bootstrap heading</h3>
+</div>
+       <div class="headcol4">
+      <h4>h4. Bootstrap heading</h4>
+</div>
+
+<div class="button1">
+  <button type="button" class="btn btn-default rounded-pill">LARGE</button>
+</div>
+
+
+
+<div class="button2">
+  <button type="button" class="btn btn-primary rounded-pill">LARGE</button>
+</div>
+
+
+<div class="button3">
+  <button type="button" class="btn btn-default rounded-pill">LARGE</button>
+</div>
+
+<div class="button4">
+<div class="dropdown">
+  <button class="btn rounded-pill dropdown-toggle"  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+<ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+</div>
+
+
+<div class="button5">
+   
+   <h2><i class="bi bi-arrow-left"></i></h2> 
+     <h2><i class="bi bi-arrow-right"></i></h2>
+ 
+</div>
+<div class="button6">
+   
+   <h2><i class="bi bi-arrow-left-circle-fill"></i></h2> 
+     <h2><i class="bi bi-arrow-right-circle-fill"></i></h2>
+   
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+  <label class="form-check-label" for="flexCheckChecked">
+     Checkbox
+  </label>
+
+ 
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+  <label class="form-check-label" for="flexRadioDefault2">
+    Radio
+  </label>
+</div>
+
+<div class="input-group mb-3">
+ 
+   <div><input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                 Text input</div> 
+  </div>
+ 
+
+
+<div class="input-group">
+
+  <div><input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
+            Hover Radio</div>  
+  </div>
+ 
+
+
+<div class="form-check">
+
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+  <label class="form-check-label" for="flexCheckDisabled">
+   Checkbox Disabled 
+  </label>
+</div>
+
+
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+  <label class="form-check-label" for="exampleRadios3">
+     Radio Disabled 
+  </label>
+</div>
+</div>
+
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" value="off">
+  <label class="form-check-label" for="flexSwitchCheckDefault">ON</label>
+</div>
+
+
+<div class="form-radio form-switch">
+  <input class="form-check-input" type="radiobox" name="OFF" id="radioNoLabel1" + aria-label="...">
+  <label class="form-check-label" for="flexSwitchRadioDefault">OFF</label>
+</div>
+ 
+<div>
+<button type="button" class="btn btn-primary ">NEW</button><br><br>
+<button type="button" class="btn btn-outline-secondary ">NEW</button>
+</div>
+
+<div>
+<button type="button" class="btn btn-primary ">Big tags</button><br><br>
+<button type="button" class="btn btn-outline-secondary ">Big tags</button></div><br>
+
+<!-- 
+  <div class="btgrp">
+    <div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-primary blue">Button1</button>
+    <button type="button" class="btn btn-primary custom-btn btn-blue">Button2</button>
+    <button type="button" class="btn btn-primary custom-btn btn-blue">Button3</button>
+    </div>
+  </div> -->
+
+
+  
+
+<div class="btn-group" role="group">
+  <button type="button " class="btn btn-outline-primary">Button</button>
+  <button type="button" class="btn btn-outline-primary">Button</button>
+  
+</div>
+
+
+<div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+ 
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-primary dropdown-toggle" class="form-select" data-bs-toggle="Button" aria-expanded="false">
+      
+      Button
+    </button>
+</div>
+</div>
+
+<form>
+
+    
+    <div class="mb-3">
+      <label for="disabledTextInput" class="form-label">Text Input</label>
+      <input type="text" id="disabledTextInput" class="form-control" placeholder="Placeholder">
+    </div>
+    <div class="mb-3">
+   <input type="text" id="disabledTextInput" class="form-control" placeholder="Text input"><br>
+
+    </div>
+   Text Input <select id="disabledSelect" class="form-select" placeholder="Placeholder"><br>
+ </select><br/>
+
+
+
+ <div>
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    Option 1
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">option 2</li>
+    <li class="list-group-item">option 3</li>
+    <li class="list-group-item">option 4</li>
+  </ul>
+</div>
+</div>
+
+
+<div>
+ 
+  
+   
+    <div class="form-group">
+      <label for="inputPassword">Disabled</label>
+      <input class="form-control" id="disabledInput" type="text" disabled>
+    </div>
+ 
+     <div class="form-group has-error has-feedback">
+      <label for="inputError2">Input with error</label>
+      <input type="text" class="form-control" id="inputError2" placeholder="Placeholder">
+      <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+    </div>
+  </form>
+</div>
+
+
+<form class="form-horizontal">
+  <div class="form-group">
+    <label class="col-sm-2 control-label">Focus text input</label>
+    <div class="col-sm-10">
+      <input class="form-control" id="focusedInput" type="text" value="Click to focus">
+    </div>
+  </div>
+ 
+  <fieldset disabled>
+    <div class="form-group">
+      <!-- <label for="disabledTextInput" class="col-sm-2 control-label">Fieldset disabled</label> -->
+      <div class="col-sm-10">
+        <!-- <input type="text" id="disabledTextInput" class="form-control"> -->
+      </div>
+    </div>
+    <div class="form-group">
+      <!-- <label for="disabledSelect" class="col-sm-2 control-label"></label> -->
+      <div class="col-sm-10">
+        <!-- <select id="disabledSelect" class="form-control"> -->
+          <!-- <option>Disabled select</option> -->
+        </select>
+      </div>
+    </div>
+  </fieldset>
+
+  
+  <div class="form-group has-success has-feedback">
+    <label class="col-sm-2 control-label" for="inputSuccess" placeholder="Placeholder">
+    Input with success</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputSuccess">
+      <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+    </div>
+  </div>
+
+  <div class="form-group has-warning has-feedback">
+    <label class="col-sm-2 control-label" for="inputWarning">
+    Input with warning and icon</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputWarning">
+      <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+    </div>
+  </div>
+
+  <div class="form-group has-error has-feedback">
+    <label class="col-sm-2 control-label" for="inputError">
+    Input with error and icon</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputError">
+      <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+    </div>
+  </div>
+</form>
+
+  <h4 class="form-horizontal"></h4>
+  <div class="btn-group">
+    <button class="btn btn-primary rounded-pill btn-blue px-4">Button1</button>
+    <button class="btn btn-primary rounded-pill btn-blue px-4">Button2</button>
+
+    </div>
+
+    <div class="btn-group">
+     <a href="#" class="btn btn-primary">Button 1</a>
+     <a href="#" class="btn btn-warning">Button 2</a>
+     </div>
+
+  </div>
+
+</div>
+
+
+  </div>
+</body>
+</html>
+

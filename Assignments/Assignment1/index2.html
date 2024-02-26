@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid</title>
+  <style>
+    .grid-container{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 200px 200px;
+      gap:10px;
+    }
+    .card1{
+      background-color: rgb(14, 53, 210);
+      grid-column: span 2;
+    }
+    .card2{
+      background-color: black;
+      grid-row: span 2;
+    }
+    .card3{
+      background-color: green;
+    }
+    .card4{
+      background-color: green;
+    }
+   
+
+    
+  </style>
+</head>
+<body>
+  
+<div class="grid-container">
+  <div class="card1"></div>
+<div class="card2"></div>
+<div class="card3"></div>
+<div class="card4"></div>
+
+
+</div>
+
+
+</body>
+</html>

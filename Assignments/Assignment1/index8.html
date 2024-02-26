@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid</title>
+  <style>
+    .grid-container{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap:10px;
+      height:100vh;
+      width:100%;
+      
+    }
+    .card1{
+      background-color: red;
+      
+    }
+    .card2{
+      background-color: orange;
+     
+      }
+    .card3{
+      background-color:green;
+      
+    }
+    .card4{
+      background-color:lightseagreen;
+     
+    }
+    .card5{
+        background-color: aqua;
+      
+    }
+  .card6{
+      background-color: rgb(25, 0, 255);
+      
+    }
+    .card7{
+      background-color:pink;
+     
+      }
+    .card8{
+      background-color:green;
+      grid-column: span 3;
+      
+    }
+    .card9{
+      background-color:lightseagreen;
+      grid-column: span 5;
+     
+    }
+   
+  
+    
+  </style>
+</head>
+<body>
+  
+<div class="grid-container">
+  <div class="card1"></div>
+<div class="card2"></div>
+<div class="card3"></div>
+<div class="card4"></div>
+ <div class="card5"></div>
+<div class="card6"></div>
+<div class="card7"></div>
+<div class="card8"></div>
+<div class="card9"></div>
+
+
+
+</div>
+
+
+</body>
+</html>
