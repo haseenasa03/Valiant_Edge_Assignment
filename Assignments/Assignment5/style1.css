@@ -210,7 +210,9 @@
 hr {
    width: 38px !important;
     height: 5px !important;
-background: linear-gradient(103.22deg, #e4369f -13.86%, #F49867 99.55%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+background: linear-gradient(0deg, #ca56ad, #d14ea7),
+        linear-gradient(103.22deg, hsl(316, 93%, 49%) -13.86%, #ed6c27 99.55%);
 
     margin: 0px !important;
 }
