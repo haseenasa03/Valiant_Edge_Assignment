@@ -208,9 +208,10 @@
 }
 
 hr {
-    width: 38px !important;
+   width: 38px !important;
     height: 5px !important;
-    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+background: linear-gradient(103.22deg, #e4369f -13.86%, #F49867 99.55%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
     margin: 0px !important;
 }
 
@@ -342,6 +343,7 @@ hr {
     letter-spacing: 0em !important;
     text-align: left !important;
     background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -419,7 +421,9 @@ hr {
     line-height: 45px !important;
     letter-spacing: 0em !important;
     text-align: left !important;
-    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+   
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+            linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -610,7 +614,7 @@ hr {
 
 .footer2text2 {
     font-family: Gilroy-Bold !important;
-    foottext2strt font-size: 14px !important;
+     font-size: 14px !important;
     line-height: 16px !important;
     letter-spacing: 0em !important;
     text-align: left !important;
@@ -648,3 +652,9 @@ h5 {
     margin-left: 500px !important;
     margin-top: 20px !important;
 }
+
+
+
+
+
+
