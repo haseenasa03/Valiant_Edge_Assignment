@@ -15,7 +15,8 @@
     0% {
         background-position: 0% 50%;
     }
-50% {
+
+    50% {
         background-position: 100% 50%;
     }
 
@@ -36,12 +37,13 @@
 .new2 {
     color: black;
 }
-.padd {
-    padding-left: 5rem !important;
-}
 
 .form-label {
     margin-bottom: 0% !important;
+}
+
+.pad {
+    padding-left: 0rem !important;
 }
 
 .text-end {
@@ -60,10 +62,14 @@
     padding-right: 4rem !important;
     padding-left: 0.5rem !important;
 }
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
+
+.button {
+    width: 235px;
+    height: 58px;
+    top: 55px;
+    left: 1070px;
 }
+
 .pad2 {}
 
 .logo {
@@ -71,7 +77,7 @@ li {
     margin-left: 0px !important;
 }
 
-.logo1 {
+.logot {
     color: white !important;
     font-size: 20px;
     padding-left: 18px !important;
@@ -84,17 +90,12 @@ li {
 .hero {
     padding-left: 0 !important;
 }
-/* .button{
-    margin-right: 10px 20px;
-    position: relative;
-    padding: right;
-} */
 
 .row>* {
     padding-left: 0 !important;
 }
 
-.image {
+.imgm {
     margin-left: 0;
     margin-right: 0;
     padding-right: 0%;
@@ -122,14 +123,15 @@ li {
     padding-right: 0 !important;
 }
 
-.herotext1 {
+
+.herotext2 {
     font-family: Manrope !important;
-    font-size: 62px !important;
-    font-weight: 800px !important;
-    line-height: 75px !important;
-    letter-spacing: -0.04em !important;
+    font-size: 60px !important;
+    font-weight: 800 !important;
+    line-height: 45px !important;
+    letter-spacing: 0em !important;
     text-align: left !important;
-    background-image: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -149,46 +151,48 @@ li {
     padding-left: 310px !important;
 }
 
-.image1 {
+.imglog1 {
     margin-left: 350px !important;
     margin-right: 0% !important;
 }
 
-.image2 {
+.imglog2 {
     padding-left: 0% !important;
 }
 
-.image3 {
+.imglog3 {
     padding-left: 5px !important;
 }
 
-.image4 {
+.imglog4 {
     padding-left: 25px !important;
 }
 
-.image5 {
+.imglog5 {
     padding-left: 60px !important;
 }
 
 .form-control {
+    background: rgba(5, 45, 86, 1);
     line-height: 2.5 !important;
     font-size: 20px !important;
+    
 }
 
-.btnbackgr {
+
+.btnclr {
     background: #FF4820 !important;
-    width: 150px;
-        padding: 10px;
-        text-align: center;
-        /* margin: 30px; */
-        position: relative;
-}
-.me-2 {
-    margin-right: .9rem !important;
+    /* border:none !important; */
+ 
+
 }
 
+.dis{
+    background: rgba(5, 45, 86, 1);
+  
+  
 
-
+}
 
 .grid-container {
     display: grid;
@@ -202,6 +206,7 @@ li {
     margin-bottom: 5rem !important;
     padding: 50px !important;
 }
+
 hr {
     width: 38px !important;
     height: 5px !important;
@@ -312,7 +317,7 @@ hr {
     margin-top: 5rem !important;
 }
 
-.content1 {
+.rec1 {
     grid-row: span 4;
 }
 
@@ -418,6 +423,7 @@ hr {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .hero2text1,
 .hero2text2,
 .hero2text3,
@@ -542,7 +548,7 @@ hr {
     height: 100vh !important;
 }
 
-.text21 {
+.jumbtext21 {
     font-family: Manrope !important;
     font-size: 62px !important;
     font-weight: 800 !important;
@@ -554,7 +560,7 @@ hr {
     -webkit-text-fill-color: transparent;
 }
 
-.text22 {
+.jumbtext22 {
     font-family: Gilroy-Medium !important;
     font-size: 18px !important;
     line-height: 21px !important;
@@ -565,7 +571,7 @@ hr {
     -webkit-text-fill-color: transparent;
 }
 
-.backgrou {
+.bgjumb {
     background: #031B34;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -597,14 +603,14 @@ hr {
     letter-spacing: 0em !important;
     text-align: left !important;
     background: #FFFFFF;
-    -webkit-background-clip: text; 
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-left: 100px !important;
 }
 
 .footer2text2 {
-    font-family: Gilroy-Bold !important; foottext2strt
-    font-size: 14px !important;
+    font-family: Gilroy-Bold !important;
+    foottext2strt font-size: 14px !important;
     line-height: 16px !important;
     letter-spacing: 0em !important;
     text-align: left !important;
@@ -642,4 +648,3 @@ h5 {
     margin-left: 500px !important;
     margin-top: 20px !important;
 }
-
